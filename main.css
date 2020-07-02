@@ -251,7 +251,7 @@ h4 {
 }
 
 .post-comment a:hover {
-    background-color: wheat;
+    background-color: rgb(217, 217, 217);
 }
 
 .post-comment * {
@@ -276,9 +276,44 @@ h4 {
     top: 0.5em;
     font-size: 1em;
     color: gray;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .post-react {
-    /*height: 2em;*/
-    background-color: indianred;
+    position: relative;
+    height: 30px;
+    /*background-color: indianred;*/
+}
+
+.reactions {
+    position: absolute;
+    top: 0px;
+    left: 1em;
+    height: 25px;
+    /*width: 25px;*/
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.post-react .dot {
+    height: 22px;
+    width: 22px;
+    border-radius: 22px;
+    background-color: blue;
+}
+
+.dot i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.num-reacts {
+    position: absolute;
+    left: 3.5em;
+    top: 50%;
+    transform: translateY(-50%);
 }
