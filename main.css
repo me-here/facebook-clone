@@ -101,6 +101,34 @@
     float: left;
 }
 
+.left-sidebar a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    height: 24px;
+}
+
+.left-sidebar a * {
+    float: left;
+}
+
+.left-sidebar a:hover {
+    background-color: rgb(252, 252, 252);
+}
+
+.rowlink {
+    margin-right: 0.4em;
+}
+
+.active {
+    background-color: rgb(252, 252, 252);
+}
+
 .feed {
     position: relative;
     width: 500px;
@@ -211,6 +239,13 @@ h4 {
 .left-user {
     background-color: #E9EBEE;
     border: none;
+    width: 150px;
+    white-space: nowrap;   
+}
+
+.left-user p {
+    left: unset;
+    right: 0px;
 }
 
 .ellipsis * {
