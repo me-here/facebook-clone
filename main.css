@@ -111,6 +111,7 @@
     padding-top: 3px;
     padding-bottom: 3px;
     height: 24px;
+    border-radius: 2px 2px 2px 2px;
 }
 
 .left-sidebar a * {
@@ -166,8 +167,9 @@ p {
 
 .post-userinfo {
     height: 2em;
+    width: 100%;
     position: relative;
-    margin-bottom: 1em;
+    margin-bottom: 0.7em;
     display: inline-block;
     margin-top: 0.7em;
 }
@@ -183,8 +185,6 @@ h4 {
     width: 50px;
     height: 50px;
     border-radius: 50px 50px 50px 50px;
-    position: relative;
-    float: left;
     margin-right: 25px;
     margin-left: 1em;
 }
@@ -214,6 +214,7 @@ h4 {
 
 .post-userinfo {
     white-space: nowrap;
+    border-bottom: none;
 }
 
 .pfp-small {
