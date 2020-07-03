@@ -156,7 +156,7 @@ p {
     font-size: 0.8em;
 }
 
-.post {
+.inner-post {
     position: relative;
     margin-top: 1em;
     border-radius: 3px 3px 3px 3px;
@@ -352,4 +352,22 @@ h4 {
     left: 3.5em;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.comments {
+    display: block;
+    height: 150px;
+    background-color: rgb(221, 221, 221);
+}
+
+.comment {
+    height: 30px;
+    width: unset;
+}
+
+.bubble {
+    width: 50%;
+    height: 25px;
+    border-radius: 15px 15px 15px 15px;
+    background-color:rgb(145, 145, 145);
 }
