@@ -67,6 +67,15 @@
     padding: 1em;
 }
 
+input:focus {
+    outline: none;
+}
+
+input:focus::placeholder {
+    color: rgb(219, 219, 219);
+}
+
+
 .links-container a {
     padding-right: 1em;
     padding-left: 1em;
