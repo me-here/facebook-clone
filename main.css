@@ -4,12 +4,17 @@
 }
 
 .top-bar {
-    position: sticky;
-    top: 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
     z-index: 1000;
     background-color: #3A5897; /*#4267B2*/
     height: 2.5em;
     border-bottom: 1px solid rgba(65, 65, 65, 0.8);
+}
+
+body {
+    padding-top: 3em;
 }
 
 .bars-container {
@@ -377,5 +382,5 @@ h4 {
     width: 50%;
     height: 25px;
     border-radius: 15px 15px 15px 15px;
-    background-color:rgb(145, 145, 145);
+    background-color: #3A5897;
 }
